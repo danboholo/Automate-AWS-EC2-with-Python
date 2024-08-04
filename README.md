@@ -4,7 +4,7 @@ Here's a polished version of the project description for your GitHub repository:
 
 # Automate AWS EC2 with Python
 
-This project shows how to use Python to automate the management of Amazon Web Services EC2 instances. The solution requires creating a Lambda function to check the status of EC2 instances on a regular basis and restart any that have been stopped. This system helps to keep instances available without requiring manual intervention.
+This project shows you how I automate AWS EC2 instance management using Python. Creating a Lambda function to programmatically check the status of EC2 instances at specific times and start a restart for any instances discovered to be in a stopped condition is the solution. Because of this automation, there is no longer a requirement for manual control because instances are continuously available.
 
 ## Project Overview
 ### Architecture
@@ -23,6 +23,8 @@ This project shows how to use Python to automate the management of Amazon Web Se
 AWS Lambda: Checks and starts EC2 instances using Python code.
 Lambda function is scheduled to run periodically using AWS EventBridge (formerly CloudWatch Events).
 The Boto3 SDK for Python allows users to interact with AWS services.
+
+![br](https://github.com/user-attachments/assets/84dd52a2-9687-4e5e-ae8d-f2d2c68a1d18)
 
 
 ## Implementation
